@@ -1,0 +1,100 @@
+// src/properties.js
+import img1 from '../Images/img1.jpeg';
+import img2 from '../Images/img2.jpeg';
+import img3 from '../Images/img3.jpeg';
+import img4 from '../Images/img4.jpeg';
+import img5 from '../Images/img5.jpeg';
+import img6 from '../Images/img6.jpeg';
+
+export const PropertiesData = [
+  { 
+    id: 1,
+    title: "Cozy Apartment in the City Center",
+    description: "A lovely 2-bedroom apartment located in the heart of the city.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 1500,
+    image: img1,
+    bedrooms: 2,
+    amenities: ["Wi-Fi", "Air Conditioning", "TV", "Kitchen"],
+    location: "City Center, New Delhi",
+  },
+  {
+    id: 2,
+    title: "Beachfront Villa with Private Pool",
+    description: "Luxury villa with stunning ocean views and a private pool. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 3000,
+    image: img2,
+    bedrooms: 3,
+    amenities: ["Private Pool", "Wi-Fi", "Ocean View", "Breakfast Included"],
+    location: "Goa, India",
+  },
+  {
+    id: 3,
+    title: "Oceanfront Villa",
+    description: "A luxurious villa with stunning ocean views, private beach access, and infinity pool.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 5000,
+    image: img3,
+    bedrooms: 4,
+    amenities: ["Infinity Pool", "Beach Access", "Wi-Fi", "Outdoor Shower"],
+    location: "Kovalam, Kerala",
+  },
+  {
+    id: 4,
+    title: "Mountain Cabin Retreat",
+    description: "Cozy cabin nestled in the mountains, perfect for a peaceful getaway.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 4000,
+    image: img4,
+    bedrooms: 2,
+    amenities: ["Fireplace", "Mountain View", "Hiking Trails", "Hot Tub"],
+    location: "Manali, Himachal Pradesh",
+  },
+  {
+    id: 5,
+    title: "Downtown Apartment",
+    description: "Modern apartment in the heart of the city, close to shopping, dining, and entertainment.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 4500,
+    image: img5,
+    bedrooms: 1,
+    amenities: ["Wi-Fi", "City View", "Gym Access", "Smart TV"],
+    location: "Bangalore, Karnataka",
+  },
+  {
+    id: 6,
+    title: "Country Cottage",
+    description: "Charming cottage with a beautiful garden, ideal for a quiet country retreat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 6000,
+    image: img6,
+    bedrooms: 3,
+    amenities: ["Garden", "Wi-Fi", "Fireplace", "Pet Friendly"],
+    location: "Coonoor, Tamil Nadu",
+  },
+  {
+    id: 7,
+    title: "Luxury Penthouse",
+    description: "Spacious penthouse with panoramic city views, private elevator, and rooftop terrace.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 10000,
+    image: img2,
+    bedrooms: 4,
+    amenities: ["Rooftop Terrace", "Private Elevator", "City View", "Jacuzzi"],
+    location: "Mumbai, Maharashtra",
+  },
+  {
+    id: 8,
+    title: "Beachside Bungalow",
+    description: "Relaxing bungalow just steps away from the beach, with a large deck and hammock. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 9000,
+    image: img6,
+    bedrooms: 2,
+    amenities: ["Beach Access", "Deck", "Hammock", "Wi-Fi"],
+    location: "Alibaug, Maharashtra",
+  },
+  {
+    id: 9,
+    title: "Incity Center banglow",
+    description: "Relaxing bungalow just steps away from the beach, with a large deck and hammock. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores officia cumque culpa, aut omnis animi expedita. Eius id tempore corporis inventore laudantium illum? Consectetur, repudiandae",
+    price: 9000,
+    image: img4,
+    bedrooms: 4,
+    amenities: ["Beach Access", "Deck", "Hammock", "Wi-Fi"],
+    location: "Alibaug, Maharashtra",
+  },
+];
