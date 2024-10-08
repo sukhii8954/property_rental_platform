@@ -1,18 +1,17 @@
 import React, { useEffect } from 'react'
 import {PropertiesData} from '../Data/PropertiesData';
 import Properties from './Properties';
-import {connect} from 'react-redux'
-import { setProperties } from '../Actions/PropertyActions';
+
 
 const PropertyList = () => {
 
   useEffect(() => {
-    first
+    
   
     return () => {
-      second
+      
     }
-  }, [third])
+  })
   
 
   return (
